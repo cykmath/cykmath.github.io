@@ -16,19 +16,40 @@
   <meta name="author" content="Yukon Chen">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="https://cykmath.github.io.git/tags/index.html">
+    <meta name="description" content="这是阅读R. Douglas的《 Banach Algebra Techniques in Operator Theory》时写的笔记. 本文使用Gelfand变换讨论了紧Hausdorff空间上的连续函数代数的各种子代数的行为,并证明了Wiener定理.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Banach代数的应用">
+<meta property="og:url" content="https://cykmath.github.io.git/2022/03/16/Banach%E4%BB%A3%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/index.html">
 <meta property="og:site_name" content="cykMath">
+<meta property="og:description" content="这是阅读R. Douglas的《 Banach Algebra Techniques in Operator Theory》时写的笔记. 本文使用Gelfand变换讨论了紧Hausdorff空间上的连续函数代数的各种子代数的行为,并证明了Wiener定理.">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-16T07:43:27.000Z">
+<meta property="article:modified_time" content="2022-03-16T07:55:58.271Z">
 <meta property="article:author" content="Yukon Chen">
+<meta property="article:tag" content="Wiener定理">
+<meta property="article:tag" content="Gelfand变换">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>标签 - cykMath</title>
+  <title>Banach代数的应用 - cykMath</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -55,7 +76,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -156,17 +177,47 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="标签">
+            <span class="h2" id="subtitle" title="Banach代数的应用">
               
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-03-16 15:43" pubdate>
+        2022年3月16日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      120 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      2 分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -175,24 +226,101 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="text-center tagcloud">
-  <a href="/tags/Gelfand%E5%8F%98%E6%8D%A2/" style="font-size: 15px; color: #bbe">Gelfand变换</a> <a href="/tags/Wiener%E5%AE%9A%E7%90%86/" style="font-size: 15px; color: #bbe">Wiener定理</a> <a href="/tags/%E7%BD%91%E5%92%8C%E6%BB%A4%E5%AD%90/" style="font-size: 15px; color: #bbe">网和滤子</a> <a href="/tags/%E8%B6%85%E6%BB%A4%E6%A8%A1%E5%9E%8B/" style="font-size: 15px; color: #bbe">超滤模型</a>
-</div>
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Banach代数的应用</h1>
+            
+            <div class="markdown-body">
+              <p>这是阅读R. Douglas的《 Banach Algebra Techniques in Operator Theory》时写的笔记. 本文使用Gelfand变换讨论了紧Hausdorff空间上的连续函数代数的各种子代数的行为,并证明了Wiener定理.</p>
 
-              </div>
+
+	<div class="row">
+    <embed src="函数代数.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%88%86%E6%9E%90/">分析</a>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%88%86%E6%9E%90/%E7%AE%97%E5%AD%90%E4%BB%A3%E6%95%B0/">算子代数</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Wiener%E5%AE%9A%E7%90%86/">Wiener定理</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Gelfand%E5%8F%98%E6%8D%A2/">Gelfand变换</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/03/16/%E6%9E%81%E9%99%90%E7%90%86%E8%AE%BA/">
+                        <span class="hidden-mobile">极限的推广与实数构造</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -276,6 +404,19 @@
 
 
 
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
 
 
 
@@ -295,6 +436,48 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 
