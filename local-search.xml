@@ -4,85 +4,13 @@
   
   
   <entry>
-    <title>Serre-Swan定理</title>
-    <link href="/2022/03/18/Serre-Swan%E5%AE%9A%E7%90%86/"/>
-    <url>/2022/03/18/Serre-Swan%E5%AE%9A%E7%90%86/</url>
+    <title>非交换概率论讨论班</title>
+    <link href="/2022/12/01/%E9%9D%9E%E4%BA%A4%E6%8D%A2%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <url>/2022/12/01/%E9%9D%9E%E4%BA%A4%E6%8D%A2%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
     
-    <content type="html"><![CDATA[<p>这是2021-2022学年寒假期间的读书笔记,其内容是Serre-Swan定理的证明.</p><div class="row">    <embed src="Serre-Swan定理.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    
-    <categories>
-      
-      <category>几何与拓扑</category>
-      
-      <category>代数拓扑</category>
-      
-    </categories>
+    <content type="html"><![CDATA[<p>量子概率论是经典概率论的推广,其中考虑的随机变量在乘法意义下不再是交换的,因此也称为非交换概率论.</p><span id="more"></span><ul><li><strong>主题</strong>：非交换/量子概率论</li><li><strong>参考教材</strong>: Paul-André Meyer, <em>Quantum Probability for Probabilists</em></li><li><strong>时间</strong>: 2022.12.3日起每周六15:00-17:00</li><li><strong>地点</strong>: #腾讯会议：582-6004-4132</li><li><strong>前置知识</strong>: 基本的泛函分析和概率论</li></ul>]]></content>
     
     
-    <tags>
-      
-      <tag>向量丛</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Banach代数的应用</title>
-    <link href="/2022/03/16/Banach%E4%BB%A3%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/"/>
-    <url>/2022/03/16/Banach%E4%BB%A3%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/</url>
-    
-    <content type="html"><![CDATA[<p>这是阅读R. Douglas的《 Banach Algebra Techniques in Operator Theory》时写的笔记. 本文使用Gelfand变换讨论了紧Hausdorff空间上的连续函数代数的各种子代数的行为,并证明了Wiener定理.</p><div class="row">    <embed src="函数代数.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    
-    <categories>
-      
-      <category>分析</category>
-      
-      <category>算子代数</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Gelfand变换</tag>
-      
-      <tag>Wiener定理</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>极限的推广与实数构造</title>
-    <link href="/2022/03/16/%E6%9E%81%E9%99%90%E7%90%86%E8%AE%BA/"/>
-    <url>/2022/03/16/%E6%9E%81%E9%99%90%E7%90%86%E8%AE%BA/</url>
-    
-    <content type="html"><![CDATA[<p>这是2019-2020春季学期数学分析课程中的读书报告.文中包含了网和滤子的基本概念和性质,并用超滤重新构造了实数域.</p><div class="row">    <embed src="极限的推广与实数构造.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    
-    <categories>
-      
-      <category>分析</category>
-      
-      <category>数学分析</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>网和滤子</tag>
-      
-      <tag>实数构造</tag>
-      
-    </tags>
     
   </entry>
   
