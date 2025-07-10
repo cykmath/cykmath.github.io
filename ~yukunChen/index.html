@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The homepage of Yukun Chen</title>
+  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Yukun Chen (陈昱坤)<a href="javascript:void(0);" id="play-name-audio" class="pronunciation-icon" title="Pronunciation">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path></svg>
+    </a>
+     </h1>
+      <p>Wuhan University | <a href="mailto:yukunchen@whu.edu.cn">yukunchen@whu.edu.cn</a></p> 
+      <p> I am a Master of Science (M.S.) candidate in pure mathematics, currently in my second year. My advisors are Yanqi Qiu and Lingming Liao.
+    </header>
+<p><audio id="name-audio" src="audio/name-pronunciation.mp3" preload="auto"></audio></p>
+   <section id="research">
+      <h2>Research Interests</h2>
+      <p>My research focuses on harmonic analysis and probability, especially problems involved multi-scale structure. I also interest in operator theory (Hankel-Toeplitz operator on Hardy space) and their applications in harmonic analysis.</p>
+    </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p><li> <em>September 2019-July 2023</em>, <strong>Xi'an Jiaotong University</strong>, Bachelor of Science in Mathematics.</li></p>
+    <p><li> <em>August 2023-Expected July 2026</em>, <strong>Wuhan University</strong>, M.S. Candidate.</li><p>
+    </section>
+   <section id="publications">
+      <h2>Publications & Preprints</h2>
+    </section>
+   <section id="teaching">
+      <h2>Teaching</h2>
+        <li><strong>Teaching Assistant</strong>, Functional Analysis, Wuhan University, <em>Fall 2023</em>.</li>
+    </section>
+</div> <script>
+    const playButton = document.getElementById('play-name-audio');
+    const audioElement = document.getElementById('name-audio');
+<pre><code>playButton.addEventListener('click', function() &#123;
+  audioElement.play();
+&#125;);
+</code></pre>
+  </script>
+</body>
+</html>
