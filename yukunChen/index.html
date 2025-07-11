@@ -1,15 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The homepage of Yukun Chen</title>
+  
   <link rel="stylesheet" href="/css/academic.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
   <div class="container">
     <header>
       <h1>Yukun Chen (陈昱坤)<a href="javascript:void(0);" id="play-name-audio" class="pronunciation-icon" title="Pronunciation">
@@ -19,30 +24,55 @@
       <p>Wuhan University | <a href="mailto:yukunchen@whu.edu.cn">yukunchen@whu.edu.cn</a></p> 
       <p> I am a Master of Science (M.S.) candidate in pure mathematics, currently in my second year. My advisors are Yanqi Qiu and Lingming Liao.
     </header>
-<p><audio id="name-audio" src="audio/name-pronunciation.mp3" preload="auto"></audio></p>
+
    <section id="research">
       <h2>Research Interests</h2>
       <p>My research focuses on harmonic analysis and probability, especially problems involved multi-scale structure. I also interest in operator theory (Hankel-Toeplitz operator on Hardy space) and their applications in harmonic analysis.</p>
     </section>
+
   <section id="education">
     <h2>Education</h2>
     <p><li> <em>September 2019-July 2023</em>, <strong>Xi'an Jiaotong University</strong>, Bachelor of Science in Mathematics.</li></p>
     <p><li> <em>August 2023-Expected July 2026</em>, <strong>Wuhan University</strong>, M.S. Candidate.</li><p>
     </section>
+
    <section id="publications">
       <h2>Publications & Preprints</h2>
     </section>
+
    <section id="teaching">
       <h2>Teaching</h2>
         <li><strong>Teaching Assistant</strong>, Functional Analysis, Wuhan University, <em>Fall 2023</em>.</li>
     </section>
-</div> <script>
+
+</div><script>
+  // 等待整个页面的 HTML 结构都加载完毕后再执行内部的代码
+  document.addEventListener('DOMContentLoaded', function() {
+
     const playButton = document.getElementById('play-name-audio');
-    const audioElement = document.getElementById('name-audio');
-<pre><code>playButton.addEventListener('click', function() &#123;
-  audioElement.play();
-&#125;);
-</code></pre>
-  </script>
+
+    // 使用从网站根目录开始的绝对路径，这在任何页面都有效且最可靠
+    // 请确保这个路径和你的文件实际路径一致
+    const audioSrc = "audio/name-pronunciation.mp3"; 
+
+    if (playButton) {
+      playButton.addEventListener('click', function() {
+        // 1. 在控制台打印一条消息，确认点击事件被触发了
+        console.log("按钮被点击！正在尝试播放音频:", audioSrc);
+
+        const audio = new Audio(audioSrc);
+
+        // 2. 尝试播放，并捕获任何可能发生的错误，然后打印出来
+        audio.play().catch(function(error) {
+          console.error("音频播放时发生错误:", error);
+        });
+      });
+    } else {
+      console.error("错误：找不到ID为 'play-name-audio' 的播放按钮。");
+    }
+
+  });
+</script>
+
 </body>
 </html>
