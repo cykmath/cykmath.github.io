@@ -8,11 +8,11 @@ body {
     background-color: #fafafa;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 30px; 
+    font-size: 15px; 
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 60px auto;
     padding: 40px;
     background-color: #fff;
@@ -22,7 +22,7 @@ body {
 header {
     text-align: left;
     border: none;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     margin-bottom: 40px;
 }
 

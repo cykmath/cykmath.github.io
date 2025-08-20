@@ -186,7 +186,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -199,7 +199,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, Roboto Slab, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1067,7 +1067,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1208,7 +1208,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff9aa1;
+  background: #42cdab;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1873,7 +1873,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, Roboto Slab, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2059,7 +2059,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, Roboto Slab, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2557,10 +2557,6 @@ header.header {
 
 /* --- Change Page Background Color --- */
 
-body {
-  background: linear-gradient(to bottom right, #FAF0E6, #FFFFF0); /* Linen -> Ivory */
-  background-attachment: fixed;
-}
 
 body {
   /* 1. 确保使用常规字重 (400) */
@@ -2569,4 +2565,10 @@ body {
   /* 2. 尝试稍微增大字号，给字体更多呼吸空间 */
   /* 你可以从 16px, 17px, 18px 中尝试，找到最舒服的大小 */
   font-size: 17px; 
+}
+
+.main-inner {
+  /* 你可以根据喜好设置成任何你想要的宽度 */
+  /* 比如 960px, 1000px, 或者 80% */
+  max-width: 1000px !important; 
 }
