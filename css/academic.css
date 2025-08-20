@@ -69,7 +69,7 @@ section li {
 /* 论文列表的每一项 (ol li) 编号样式 */
 section ol li {
   counter-increment: publications-counter;
-  padding-left: 40px;
+  padding-left: 20px;
   position: relative;
 }
 
@@ -154,4 +154,60 @@ a:hover {
   color: #0056b3; /* 鼠标悬浮时变成链接的颜色 */
 }
 
+}
+
+/* --- Education Section Style --- */
+
+.education-list {
+  list-style: none; /* 移除列表默认的小黑点 */
+  padding-left: 0;
+}
+
+.education-entry {
+  padding-left: 25px; /* 在左侧留出空间 */
+  border-left: 3px solid #ddd; /* 添加一条时间轴式的左边框 */
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* 用伪元素在时间轴上创建一个小圆点，更好看 */
+.education-entry::before {
+  content: '';
+  position: absolute;
+  left: -8px; /* 将圆点定位在左边框上 */
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #007bff; /* 使用我们之前定义的强调色 */
+  border: 2px solid #fff;
+}
+
+/* 最后一个列表项不需要下方的边距和延长线 */
+.education-list li:last-child .education-entry {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-left: none; /* 也可以保留，看个人喜好 */
+}
+
+
+.education-entry .date {
+  font-family: var(--font-sans); /* 日期使用无衬线字体 */
+  font-size: 0.9em;
+  color: #666;
+  margin: 0;
+}
+
+.education-entry .institution {
+  font-family: var(--font-sans);
+  font-size: 1.2em; /* 突出学校名字 */
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0;
+}
+
+.education-entry .degree {
+  font-family: var(--font-serif); /* 学位使用正文的衬线字体 */
+  margin: 0;
 }
