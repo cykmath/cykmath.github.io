@@ -129,6 +129,10 @@ a:focus {
   border-bottom: 1px solid var(--rule);
 }
 
+.muted-note {
+  color: var(--muted);
+}
+
 .academic-home section {
   margin-top: 2.8rem;
   padding-top: 1.8rem;
@@ -190,7 +194,18 @@ li + li {
 }
 
 .education-list li {
-  margin: 0 0 1rem;
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: 1.2rem;
+  margin: 0 0 1.15rem;
+}
+
+.education-list h3 {
+  margin-top: 0;
+}
+
+.education-list p {
+  margin-bottom: 0;
 }
 
 .date-range,
@@ -356,6 +371,13 @@ li + li {
   color: var(--muted);
 }
 
+.post-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.4rem auto;
+}
+
 .statement,
 .math-statement {
   margin: 1.4rem 0;
@@ -483,5 +505,10 @@ figure.highlight .gutter {
 
   .academic-home h1 {
     font-size: 2rem;
+  }
+
+  .education-list li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 }

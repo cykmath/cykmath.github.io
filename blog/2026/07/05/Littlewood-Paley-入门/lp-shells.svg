@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dyadic frequency shells</title>
+  <desc id="desc">A quiet schematic of nested dyadic annuli in frequency space.</desc>
+  <rect width="640" height="260" fill="#fbf8f2"/>
+  <g fill="none" stroke="#8b4636" stroke-width="2">
+    <circle cx="320" cy="130" r="32"/>
+    <circle cx="320" cy="130" r="62"/>
+    <circle cx="320" cy="130" r="96"/>
+  </g>
+  <g stroke="#c8b9aa" stroke-width="1.5">
+    <line x1="130" y1="130" x2="510" y2="130"/>
+    <line x1="320" y1="38" x2="320" y2="222"/>
+  </g>
+  <g fill="#665c54" font-family="Georgia, 'Times New Roman', serif" font-size="18">
+    <text x="358" y="124">|xi| ~ 2^k</text>
+    <text x="334" y="92">P_k f</text>
+    <text x="270" y="136">low</text>
+  </g>
+</svg>

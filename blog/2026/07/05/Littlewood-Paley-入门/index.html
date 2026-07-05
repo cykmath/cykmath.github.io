@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Academic homepage of Yukun Chen"><title>Littlewood-Paley 入门 | Yukun Chen</title><link rel="stylesheet" href="/css/academic-minimal.css"><script>window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};</script><script async src="/vendor/mathjax/es5/tex-chtml.js"></script><meta name="generator" content="Hexo 6.0.0"></head><body class="layout-post is-blog-area"><main class="site-main"><article class="blog-post"><a class="return-link" href="/blog/">Notes</a><header class="post-header"><time class="post-date" datetime="2026-07-05">2026-07-05</time><h1>Littlewood-Paley 入门</h1><nav class="post-toc" aria-label="Table of contents"><h2>Contents</h2><ol><li class="toc-item"><a href="#频率分解">频率分解</a></li><li class="toc-item"><a href="#References">References</a></li></ol></nav></header><div class="post-body"><p>这是一篇 Obsidian 样例笔记，用来测试导入到 Hexo 后的数学写作效果。我们希望保留普通 Markdown 的写作体验，同时把 Obsidian 的 callout 转成网页里更适合数学笔记的样式。</p>
+<h2 id="频率分解">频率分解</h2>
+<p>设 <span class="math-inline">\(f\in \mathcal{S}'(\mathbb{R}^d)\)</span>。Littlewood-Paley 分解的基本想法是把 <span class="math-inline">\(f\)</span> 分解到不同的频率尺度上。</p>
+<p><img src="./lp-shells.svg" alt="Dyadic frequency shells"></p>
+<div class="statement definition">
+<p><span class="statement-title">Definition (Dyadic decomposition).</span> 设 <span class="math-inline">&#92;(&#92;{&#92;varphi_k&#92;}_{k&#92;geq 0}&#92;)</span> 是一族光滑函数，并且每个 <span class="math-inline">&#92;(&#92;varphi_k&#92;)</span> 主要支撑在频率环 <span class="math-inline">&#92;(|&#92;xi|&#92;sim 2^k&#92;)</span> 上。我们称</p>
+<div class="math-display">&#92;[P_k f = &#92;mathcal{F}^{-1}(&#92;varphi_k &#92;widehat f)&#92;]</div>
+<p>为 <span class="math-inline">&#92;(f&#92;)</span> 的第 <span class="math-inline">&#92;(k&#92;)</span> 个 dyadic block。</p>
+</div>
+<div class="statement lemma">
+<p><span class="statement-title">Lemma (Square function estimate).</span> 对 <span class="math-inline">&#92;(1&lt;p&lt;&#92;infty&#92;)</span>，Littlewood-Paley 平方函数满足</p>
+<div class="math-display">&#92;[&#92;left&#92;|&#92;left(&#92;sum_{k&#92;geq 0}|P_k f|^2&#92;right)^{1/2}&#92;right&#92;|_{L^p}
+&#92;lesssim_p &#92;|f&#92;|_{L^p}.&#92;]</div>
+</div>
+<div class="proof">
+<p><span class="proof-title">Proof.</span> 这里暂时不写完整证明。真实笔记中可以把 Calderon-Zygmund 分解、随机化或者 multiplier theorem 的论证放在这里。 <span class="qed">&square;</span></p>
+</div>
+<div class="statement remark">
+<p><span class="statement-title">Remark.</span> 这个例子还测试了一个普通 wikilink：Fourier Analysis。导入器目前会把它转成纯文本，避免生成错误链接。</p>
+</div>
+<h2 id="References">References</h2>
+<ol>
+<li>E. M. Stein, <em>Harmonic Analysis</em>, Princeton University Press.</li>
+<li>L. Grafakos, <em>Classical Fourier Analysis</em>, Springer.</li>
+</ol>
+</div></article></main><footer class="site-footer"><div class="site-footer__inner"><p>Copyright 2026 Yukun Chen.</p></div></footer></body></html>
