@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Academic homepage of Yukun Chen"><title>A Test Note for Math Typesetting | Yukun Chen</title><link rel="stylesheet" href="/css/academic-minimal.css"><script>window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};</script><script async src="/vendor/mathjax/es5/tex-chtml.js"></script><meta name="generator" content="Hexo 6.0.0"></head><body class="layout-post is-blog-area"><main class="site-main"><article class="blog-post"><a class="return-link" href="/blog/">Notes</a><header class="post-header"><time class="post-date" datetime="2026-07-05">2026-07-05</time><h1>A Test Note for Math Typesetting</h1><nav class="post-toc" aria-label="Table of contents"><h2>Contents</h2><ol><li class="toc-item"><a href="#A-Small-Example">A Small Example</a></li><li class="toc-item"><a href="#Lists-and-Notes">Lists and Notes</a></li><li class="toc-item"><a href="#References">References</a></li></ol></nav></header><div class="post-body"><p>This temporary note checks the typography for mathematical exposition: paragraphs, inline formulae, displayed equations, statements, proofs, remarks, references, and code.</p>
+<span id="more"></span>
+<h2 id="A-Small-Example">A Small Example</h2>
+<p>For an inline example, let <span class="math-inline">\(f \in L^2(\mathbb{T})\)</span>. Its Fourier coefficients are<br>
+<span class="math-inline">\(\widehat f(n)=\int_{\mathbb{T}} f(x)e^{-2\pi i n x}\,dx\)</span>.</p>
+<p>Displayed formulae should have enough room to breathe:</p>
+<div class="math-display">&#92;[&#92;|f&#92;|_{L^2(&#92;mathbb{T})}^2
+= &#92;sum_{n&#92;in&#92;mathbb{Z}} |&#92;widehat f(n)|^2.&#92;]</div>
+<div class="statement definition">
+<p><span class="statement-title">Definition.</span> A dyadic decomposition is a family of smooth Fourier multipliers <span class="math-inline">&#92;(&#92;{P_k&#92;}_{k&#92;geq 0}&#92;)</span> localizing a function to successive frequency scales.</p>
+</div>
+<div class="statement lemma">
+<p><span class="statement-title">Lemma.</span> Let <span class="math-inline">&#92;(&#92;{P_k&#92;}_{k&#92;geq 0}&#92;)</span> be a smooth dyadic decomposition of frequency space. For <span class="math-inline">&#92;(1&lt;p&lt;&#92;infty&#92;)</span>, one expects a square-function estimate of the form</p>
+<div class="math-display">&#92;[&#92;left&#92;|&#92;left(&#92;sum_{k&#92;geq 0} |P_k f|^2&#92;right)^{1/2}&#92;right&#92;|_{L^p}
+&#92;lesssim_p &#92;|f&#92;|_{L^p}.&#92;]</div>
+</div>
+<div class="proof">
+<p><span class="proof-title">Proof.</span> This is only a layout test, but a proof paragraph should feel quieter than the statement itself. It may contain inline formulae such as <span class="math-inline">&#92;(P_k f&#92;)</span> and should return naturally to the surrounding text. <span class="qed">&square;</span></p>
+</div>
+<div class="statement remark">
+<p><span class="statement-title">Remark.</span> Remarks should be visually lighter than lemmas or theorems. They are useful for comments, examples, and warnings that should not compete with the main statements.</p>
+</div>
+<p>After a statement or proof, the text should return to the normal reading rhythm. Long formulae should scroll on small screens rather than forcing the page wider:</p>
+<div class="math-display">&#92;[&#92;int_{&#92;mathbb{R}^d}&#92;int_{&#92;mathbb{R}^d}
+&#92;frac{|u(x)-u(y)|^2}{|x-y|^{d+2s}}&#92;,dx&#92;,dy
+&#92;simeq
+&#92;int_{&#92;mathbb{R}^d} |&#92;xi|^{2s}|&#92;widehat u(&#92;xi)|^2&#92;,d&#92;xi.&#92;]</div>
+<h2 id="Lists-and-Notes">Lists and Notes</h2>
+<ul>
+<li>The main text uses a serif face.</li>
+<li>The notes section remains separate from the academic homepage.</li>
+<li>A post opts into formula rendering with <code>math: true</code>.</li>
+</ul>
+<blockquote>
+<p>This blockquote is for comments, references, or short remarks. It should be quiet rather than decorative.</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Future public notes can live in source/_posts/.</span><br><span class="line">Private or unfinished notes should stay outside source/.</span><br></pre></td></tr></table></figure>
+<h2 id="References">References</h2>
+<ol>
+<li>E. M. Stein, <em>Harmonic Analysis</em>, Princeton University Press.</li>
+<li>L. Grafakos, <em>Classical Fourier Analysis</em>, Springer.</li>
+</ol>
+</div></article></main><footer class="site-footer"><div class="site-footer__inner"><p>Copyright 2026 Yukun Chen.</p></div></footer></body></html>
