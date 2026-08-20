@@ -81,15 +81,15 @@ a:focus {
 }
 
 .site-main {
-  width: min(920px, calc(100% - 36px));
+  width: min(880px, calc(100% - 36px));
   margin: 0 auto;
-  padding: 64px 0 72px;
+  padding: 52px 0 64px;
 }
 
 .academic-home,
 .page-content,
 .blog-shell {
-  max-width: 760px;
+  max-width: 780px;
 }
 
 .blog-post {
@@ -97,31 +97,40 @@ a:focus {
 }
 
 .academic-home h1 {
-  margin: 0 0 0.35rem;
-  font-size: 2.28rem;
-  line-height: 1.12;
+  margin: 0 0 0.25rem;
+  font-size: 2.05rem;
+  line-height: 1.15;
+  font-weight: 600;
 }
 
-.academic-home .subtitle {
-  margin: 0 0 1rem;
-  color: var(--muted);
+.academic-home h1 span {
+  margin-left: 0.25rem;
+  font-size: 0.82em;
+  font-weight: 400;
+}
+
+.academic-intro > p {
+  max-width: 740px;
+  margin-bottom: 0.9rem;
+}
+
+.academic-position,
+.academic-contact {
   font-family: var(--sans);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
 }
 
-.academic-home .lead {
-  max-width: 720px;
-  margin: 1.3rem 0 0;
-  font-size: 1.08rem;
+.academic-position {
+  color: var(--muted);
 }
 
 .profile-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
-  margin-top: 1.2rem;
+  margin-top: 1.1rem;
   font-family: var(--sans);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
 }
 
 .profile-links a {
@@ -134,9 +143,7 @@ a:focus {
 }
 
 .academic-home section {
-  margin-top: 2.8rem;
-  padding-top: 1.8rem;
-  border-top: 1px solid var(--faint);
+  margin-top: 2.35rem;
 }
 
 h1,
@@ -148,8 +155,8 @@ h3 {
 }
 
 h2 {
-  margin: 0 0 1rem;
-  font-size: 1.35rem;
+  margin: 0 0 0.8rem;
+  font-size: 1.22rem;
 }
 
 h3 {
@@ -173,15 +180,13 @@ li + li {
 }
 
 .publication-list {
-  padding-left: 0;
-  list-style: none;
+  padding-left: 1.45rem;
+  list-style: decimal;
 }
 
 .publication-list li {
-  margin: 0 0 0.85rem;
-  padding: 0.8rem 0 0.8rem 1rem;
-  border-left: 3px solid var(--rule);
-  background: color-mix(in srgb, var(--paper) 78%, transparent);
+  margin: 0 0 0.7rem;
+  padding-left: 0.2rem;
 }
 
 .publication-list .venue {
